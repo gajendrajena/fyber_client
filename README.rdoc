@@ -1,0 +1,5 @@
+== README
+
+ - add config options to services.rb
+ - add a model fyber to interact with fyber api
+ - create rails action and views to show the data
