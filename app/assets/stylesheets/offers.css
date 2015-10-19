@@ -1,0 +1,12 @@
+.thumbnail{
+  overflow: auto;
+  min-height: 80px;
+}
+.thumbnail:hover{
+  background: #DDD;
+}
+.offer{
+  min-height: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

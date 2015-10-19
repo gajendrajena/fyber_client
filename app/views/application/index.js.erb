@@ -1,0 +1,7 @@
+<% if @offers.present? %>
+  $("#offers").append("<%= j(render 'offers')%>")
+  $("a#load_more").data('page', <%= params[:page].to_i + 1%>);
+  $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+<% else %>
+  $("a#load_more").hide();
+<% end %>
