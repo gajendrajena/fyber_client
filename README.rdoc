@@ -69,7 +69,7 @@ bundle exec rspec
 
 Platform - `Heroku`
 
-This application is currently deployed at https://fyber_client.herokuapp.com/
+This application is currently deployed at https://safe-falls-1389.herokuapp.com/
 
 
 ## Credits
