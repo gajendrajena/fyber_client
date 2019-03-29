@@ -1,5 +1,79 @@
 == README
 
- - add config options to services.rb
+# A sample app confuming fyber api
+
+Implementations
+
+```
+Consume Fyber API
+ - create rails application for fiber_client
+ - add config options to services
  - add a model fyber to interact with fyber api
  - create rails action and views to show the data
+```
+
+## Technologies
+- Frontend
+`HTML`, `CSS`, `Javascript`, `JQuery`, `Twitter Bootstrap (3.3.4)`
+
+- Backend
+`Ruby on Rails` ( Ruby:` 2.2.1`, Rails: `4.2.4` )
+
+## Pre requisite
+1. Ruby - `2.2.1` ( Choose `rvm` or `rbenv` )
+
+2. Postgresql - `10.7`
+`brew install postgresql`
+`brew services start postgresql`
+
+## Setup
+
+**1. Clone the repository**
+```
+git clone git@github.com/gajendrajena/fyber_client
+```
+
+**2. Install Dependencies**
+```
+cd fyber_client
+bundle install
+```
+
+**3. Create Database**
+
+```
+rake db:create
+```
+
+**4. Setup seed data**
+
+```
+rake db:setup
+```
+
+**5. Run server**
+
+```
+rails s
+```
+
+
+**6. To run testcases**
+
+```
+bundle exec rspec
+```
+
+
+## Deployment
+
+Platform - `Heroku`
+
+This application is currently deployed at https://fyber_client.herokuapp.com/
+
+
+## Credits
+
+Gajendra Jena
+
+
